@@ -22,4 +22,4 @@ const firebaseConfig = {
 const firebase = initializeApp(firebaseConfig);
 
 const app = createApp(App)
-await init(app);
+init(app);
